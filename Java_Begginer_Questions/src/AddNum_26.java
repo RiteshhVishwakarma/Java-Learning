@@ -20,6 +20,8 @@ public class AddNum_26 {
 
     public static void main(String[] args) {
         AddNum_26 obj = new AddNum_26();
-        System.out.println("Hellp");
+        obj.input();
+        obj.result();
+        obj.output();
     }
 }
