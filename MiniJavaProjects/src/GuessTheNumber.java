@@ -14,7 +14,7 @@ public class GuessTheNumber {
         Random random = new Random();
         Scanner sc = new Scanner(System.in);
 
-        int randomNumber = random.nextInt(10)+1;
+        int randomNumber = random.nextInt(100)+1;
         int attemp = 0;
         int guess = 0;
 
